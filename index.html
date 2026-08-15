@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Guangyi Yang — New Grad Software Engineer focused on AI/LLM systems, backend engineering, Graph RAG, and data-intensive applications." />
+  <meta name="theme-color" content="#f6f7f9" />
+  <title>Guangyi Yang | Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <aside class="sidebar">
+      <div class="identity">
+        <div class="avatar" aria-hidden="true">GY</div>
+        <h1>Guangyi Yang</h1>
+        <p class="role">New Grad Software Engineer</p>
+        <p class="subrole">AI / LLM · Backend · Data Systems</p>
+      </div>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="sidebar-links">
+        <a href="https://github.com/guangyiyang" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a href="assets/Guangyi_Yang_Resume.pdf" target="_blank" rel="noreferrer">Resume ↗</a>
+        <a href="mailto:guangyiyang8@gmail.com">Email ↗</a>
+      </div>
+
+      <p class="location">San Jose, California</p>
+    </aside>
+
+    <main class="content">
+      <section id="about" class="section hero">
+        <p class="eyebrow">AVAILABLE FOR NEW GRAD OPPORTUNITIES</p>
+        <h2>I build practical software at the intersection of <span>AI systems</span>, <span>backend engineering</span>, and <span>data.</span></h2>
+        <p class="intro">
+          I recently completed my M.S. in Information Systems at Northeastern University’s Silicon Valley campus. My work spans Graph RAG, LLM alignment, deep learning for medical imaging, database systems, and Java application development.
+        </p>
+        <p class="intro">
+          I’m targeting new grad Software Engineer, AI/LLM Engineer, and Backend Engineer roles where I can build reliable systems, work close to product, and keep learning quickly.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View selected work</a>
+          <a class="button" href="assets/Guangyi_Yang_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">SELECTED WORK</p>
+            <h2>Projects</h2>
+          </div>
+          <a class="text-link" href="https://github.com/guangyiyang?tab=repositories" target="_blank" rel="noreferrer">All repositories ↗</a>
+        </div>
+
+        <article class="project featured">
+          <div class="project-index">01</div>
+          <div class="project-body">
+            <div class="project-title-row">
+              <h3>Healthcare Knowledge Graph & Graph RAG</h3>
+              <a href="https://github.com/guangyiyang/Healthcare_GraphRAG" target="_blank" rel="noreferrer" aria-label="Open Healthcare GraphRAG repository">GitHub ↗</a>
+            </div>
+            <p>
+              End-to-end natural-language query system for electronic health records. It transforms MIMIC-IV data into a Neo4j knowledge graph, converts user questions into Cypher, retrieves relevant subgraphs, and produces evidence-grounded answers with interactive reasoning paths.
+            </p>
+            <ul class="project-points">
+              <li>Built ETL, data lineage, and data-quality validation for structured healthcare data.</li>
+              <li>Implemented multi-stage Graph RAG with compound-query decomposition and subgraph extraction.</li>
+              <li>Added Streamlit + PyVis visualization and ground-truth Cypher validation.</li>
+            </ul>
+            <div class="tags"><span>Python</span><span>Neo4j</span><span>Cypher</span><span>LangChain</span><span>OpenAI API</span><span>Streamlit</span><span>MIMIC-IV</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-index">02</div>
+          <div class="project-body">
+            <div class="project-title-row">
+              <h3>LLM Self-Alignment Pipeline</h3>
+              <a href="https://github.com/guangyiyang/llm_self_alignment" target="_blank" rel="noreferrer">GitHub ↗</a>
+            </div>
+            <p>
+              Self-alignment workflow for LLaMA-family models using instruction backtranslation, self-augmentation, model-based curation, and parameter-efficient fine-tuning.
+            </p>
+            <ul class="project-points">
+              <li>Fine-tuned a backward model to generate instructions from responses.</li>
+              <li>Curated generated instruction-response pairs before final instruction tuning.</li>
+              <li>Used PEFT/LoRA with Hugging Face tooling on OpenAssistant Guanaco and LIMA data.</li>
+            </ul>
+            <div class="tags"><span>Python</span><span>PyTorch</span><span>Transformers</span><span>PEFT</span><span>LoRA</span><span>LLaMA</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-index">03</div>
+          <div class="project-body">
+            <div class="project-title-row">
+              <h3>Chest X-Ray Multi-Label Classification</h3>
+              <a href="https://github.com/guangyiyang/Chest-XRay-MultiLabel-Classification" target="_blank" rel="noreferrer">GitHub ↗</a>
+            </div>
+            <p>
+              Deep-learning pipeline for multi-label thoracic condition classification from chest X-rays using transfer learning with a pretrained DenseNet121 backbone.
+            </p>
+            <ul class="project-points">
+              <li>Adapted DenseNet121 for multi-label prediction across thoracic findings.</li>
+              <li>Used BCEWithLogitsLoss and AdamW for training.</li>
+              <li>Built with PyTorch, Torchvision, NumPy, Pandas, and scikit-learn.</li>
+            </ul>
+            <div class="tags"><span>Python</span><span>PyTorch</span><span>DenseNet121</span><span>Computer Vision</span><span>Transfer Learning</span></div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-index">04</div>
+          <div class="project-body">
+            <div class="project-title-row">
+              <h3>Pet Care Management Database</h3>
+              <a href="https://github.com/guangyiyang/Pet_Care_Management_Database" target="_blank" rel="noreferrer">GitHub ↗</a>
+            </div>
+            <p>
+              Relational database system for owners, pets, appointments, services, boarding, vaccinations, invoicing, payments, and reporting.
+            </p>
+            <ul class="project-points">
+              <li>Designed a 14-table relational schema with primary/foreign keys and many-to-many relationships.</li>
+              <li>Implemented constraints, user-defined functions, computed columns, and SQL views.</li>
+            </ul>
+            <div class="tags"><span>SQL Server</span><span>T-SQL</span><span>Relational Design</span><span>Database Modeling</span></div>
+          </div>
+        </article>
+
+        <div class="secondary-projects">
+          <a class="mini-project" href="https://github.com/guangyiyang/Machine_Learing_For_Medical_Devices" target="_blank" rel="noreferrer">
+            <span class="mini-label">COURSEWORK / ML</span>
+            <h3>Machine Learning for Medical Devices</h3>
+            <p>Applied ML notebooks using NumPy, Pandas, scikit-learn, TensorFlow/Keras, and visualization tooling.</p>
+            <span class="mini-link">Repository ↗</span>
+          </a>
+          <a class="mini-project" href="https://github.com/guangyiyang/INFO5100_002304591_GuangyiYang" target="_blank" rel="noreferrer">
+            <span class="mini-label">COURSEWORK / JAVA</span>
+            <h3>Application Engineering & Development</h3>
+            <p>Java coursework and final-project repository demonstrating application engineering fundamentals.</p>
+            <span class="mini-link">Repository ↗</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <p class="eyebrow">TOOLKIT</p>
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div>
+            <h3>Languages</h3>
+            <p>Python · Java · C/C++ · JavaScript · HTML/CSS · SQL/T-SQL · Shell · MATLAB</p>
+          </div>
+          <div>
+            <h3>AI / ML</h3>
+            <p>PyTorch · TensorFlow/Keras · Hugging Face · LangChain · LoRA/PEFT · Graph RAG · scikit-learn</p>
+          </div>
+          <div>
+            <h3>Backend / Data</h3>
+            <p>Spring · Spring Boot · Neo4j · MySQL · SQL Server · MongoDB · Redis · REST APIs</p>
+          </div>
+          <div>
+            <h3>Developer Tools</h3>
+            <p>Git · Docker · Linux · Maven · Postman · Streamlit · Jupyter · IntelliJ IDEA · VS Code</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <p class="eyebrow">BACKGROUND</p>
+        <h2>Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2024 — 2026</div>
+            <div>
+              <h3>Northeastern University</h3>
+              <p class="degree">M.S. in Information Systems · Silicon Valley</p>
+              <p>GPA 3.88 / 4.00</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2019 — 2023</div>
+            <div>
+              <h3>Nanjing Forestry University</h3>
+              <p class="degree">B.E. in Computer Science and Technology</p>
+              <p>Average score 87.32 / 100 · Merit Student & Scholarship</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Looking for a new grad engineer?</h2>
+        <p>I’m currently exploring software engineering opportunities in AI/LLM systems, backend engineering, and data-intensive products.</p>
+        <div class="contact-links">
+          <a href="mailto:guangyiyang8@gmail.com">guangyiyang8@gmail.com ↗</a>
+          <a href="https://github.com/guangyiyang" target="_blank" rel="noreferrer">github.com/guangyiyang ↗</a>
+          <a href="assets/Guangyi_Yang_Resume.pdf" target="_blank" rel="noreferrer">Resume PDF ↗</a>
+        </div>
+      </section>
+
+      <footer>
+        <span>© 2026 Guangyi Yang</span>
+        <span>Built for GitHub Pages.</span>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
