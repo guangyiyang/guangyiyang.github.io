@@ -2,7 +2,6 @@
 
 A lightweight, recruiter-focused personal website built for GitHub Pages.
 
-
 ## Included
 
 - `index.html` — single-page portfolio
